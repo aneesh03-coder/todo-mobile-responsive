@@ -490,250 +490,15 @@ font-family: 'Ubuntu', sans-serif; */
     
 
 
- /* @media screen and (max-width: 1706px), 
-       screen and (max-height: 805px) {
-       .list__collections{
-           height: 180px;
-       }
-       .mylist{
-           margin-bottom: 50px;
-       }
-       .todo__lists{
-        margin-bottom: 60px;
-       }
-        
-}
+ 
 
-@media screen and (max-width: 755px), 
-       screen and (max-height: 703px) {
-        .todo__lists{
-            width: 440px;
-            margin-left: 300px;
-            height: 420px;
-            margin-right: 160px;
-            margin-bottom: 120px;
-            
-        }
-         .mylist__createNew{
-            padding-left: 40px;
-            padding-top: 50px;
-            cursor: pointer;
-        }
-        .list_section{
-            width: 90%;
-            margin-top: 25px;
-            
-        }
-        .list__collections{
-            margin-top: 0px;
-            font-size: 20px;
-            padding-left: 0px;
-        }
-        .list__collections > h3{
-            padding-left: 10px;
-        }
-        .list_collections_filter{
-            margin-top: 5px;
-            margin-left: 10px;
-        }
-        .all__lists,.completed__tasks,.uncompleted__tasks,.deleted__tasks{
-            padding: 0px;
-            margin-bottom: 10px;
-            font-size: 14px;
-        }
-        .leaflet{
-            min-width: 285px;
-            margin-right: 305px;
-        }
-        .leaflet__content >h1{
-            font-size: 28px;
-        }
-        .leaflet__section> form > input{
-            width: 50%;
-        }
-        #heading{
-            font-size: 50px;
-            padding: 0px;
-            margin-right: 80px;
-            text-align: center;
-        }        
-
-       } */
-/* 
-       @media screen and (max-width: 955px), 
-       screen and (max-height: 703px) {
-        .todo__lists{
-            width: 420px;
-            margin-left: 300px;
-            height: 420px;
-            margin-right: 100px;
-            margin-bottom: 120px;
-            
-        }
-      
-        .mylist__createNew{
-            padding-top: 20px;
-        }
-       
-       } */
-/* 
-       @media screen and (max-width: 755px), 
-       screen and (max-height: 703px) {
-        .todo__lists{
-            width: 360px;
-            margin-left: 320px;
-            height: 330px;
-            margin-right: 40px;
-            margin-bottom: 120px;
-            
-        }
-      
-        .mylist__createNew{
-            padding-top: 20px;
-        }
-        .leaflet{
-            width: 190px;
-            height: 700px;
-        }
-        #heading{
-            margin-left: 60px;
-            text-align: center;
-        }
-        #congratulations{
-            margin-left: 0px;
-        }
-        .leaflet__content{
-            padding: 20px;
-            height: 65%;
-        }
-        .list__collections >h3{
-            font-size: 17px;
-        }
-        .content  > h3{
-            font-size: 17px;
-        }
-        .content__icons{
-            margin-left: -45px;
-            width: 145px;
-            justify-content: center;
-        }
-        .content__icons i{
-            padding-left: 15px;
-        }
-        .leaflet__content h3{
-            flex: 1;
-        }
-        .list__section{
-            height:25%;
-        }
-        .list__collections{
-            height: 150px;
-        }
-        .list_collections_filter{
-            height: 70%;
-        }
-        #heading{
-            margin-left: 60px;
-        }
-       
-       } */
-
-
-/* 
-       @media screen and (max-width: 414px), 
-       screen and (max-height: 731px) {
-           body{
-               height: 823px;
-               width: 414px;
-           }
-           body{
-               position: relative;
-              
-           }
-           .section{
-               position: absolute;
-               width: 100%;
-               top: 10%;
-               left: 10%;
-           }
-        .todo__lists{
-            position: absolute;
-            width: 70%;
-            bottom: -30%;
-            left: -76%;
-            z-index: 2000;
-            opacity: 1;
-            display: none;
-        }
-        .leaflet{
-            width: 85%;
-           
-        }
-        .todo__heading{
-            position: absolute;
-            top: -10%;
-            left:15%;
-            width: 200px;
-            
-        }
-
-        .leaflet__section{
-            position: absolute;
-            top:55%;
-            left:-4%;
-            
-        }
-        #heading{
-            font-size: 35px;
-
-            padding: 0;
-            margin: 0;
-            width: 100%;
-            color: white;
-        }
-        .leaflet__section form>input{
-            width: 100%;
-            margin-top: -115px;
-            padding-top: 0px;
-        }
-        .leaflet__section form>input::placeholder{
-            font-size: 15px;
-        }
-        .bottom__button{
-            display: inline;
-            position: absolute;
-            bottom:-38%;
-            left: 32%;
-            font-weight: 900;
-            color: white;
-            font-size: 40px;
-            border: 8px solid purple;
-            border-radius: 50%;
-            height: 20px;
-            width: 20px;
-            border-radius: 50%;
-            border: 1px solid purple
-        }
-       
-       }     */
-
-       @media screen and (max-width: 414px), 
-       screen and (max-height: 636px) {
+       @media all and (max-width: 614px) and (max-height: 714px){        
           
            body{
             position: relative;
             margin-bottom: 0px;
         }
-        /* .todo__heading{
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            width: 200px;
-        }
-        .todo__heading > i{
-            font-size: 30px;
-            
-        } */
+     
         .fa-list{
             position: absolute;
             right: 15%;
@@ -753,7 +518,7 @@ font-family: 'Ubuntu', sans-serif; */
         .todo__lists{
             position: absolute;
             width: 110%;
-            /* bottom: -55%; */
+            
             left: -15%;
             z-index: 2000;
             opacity: 1;
@@ -801,21 +566,7 @@ font-family: 'Ubuntu', sans-serif; */
         .leaflet__section form>input::placeholder{
             font-size: 15px;
         }
-        /* .bottom__button{
-            display: inline;
-            position: absolute;
-            bottom:-22%;
-            left: 32%;
-            font-weight: 900;
-            color: white;
-            font-size: 40px;
-            
-            
-            height: 20px;
-            width: 20px;
-            
-            
-        } */
+     
         .mylist{
             position: relative;
         }
@@ -839,3 +590,102 @@ font-family: 'Ubuntu', sans-serif; */
         }
      
        }
+
+       /* @media all and (max-height: 714px){
+        body{
+            position: relative;
+            margin-bottom: 0px;
+        }
+     
+        .fa-list{
+            position: absolute;
+            right: 15%;
+            top: 5%;
+            font-size: 20px;
+            display: inline;
+            z-index: 3000;
+        }
+        #heading{
+            font-size: 35px;
+            
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            color: white;
+        }
+        .todo__lists{
+            position: absolute;
+            width: 110%;
+            
+            left: -15%;
+            z-index: 2000;
+            opacity: 1;
+            height: 100%;
+            clip-path: circle(20px at 20% 90%);
+            -webkit-clip-path:circle(20px at 0% 90%);
+            transition: all 0.75s ease-out;
+            display: inline;
+        }
+        .todo__lists.open{
+            
+            clip-path: circle(1000px at 0% 90%);
+            -webkit-clip-path:circle(1000px at 0% 90%);
+        }
+        .section{
+            position: absolute;
+            width: 90%;
+            top: 10%;
+            left: 10%;
+        }
+        .leaflet{
+            width: 370px;
+            height: 70%;
+        }
+        .todo__heading{
+            position: absolute;
+            top: -10%;
+            left:15%;
+            width: 200px;
+            
+        }
+
+        .leaflet__section{
+            position: absolute;
+            top:59%;
+            left:-4%;
+            height: 140%;
+            
+        }
+        .leaflet__section form>input{
+            width: 85%;
+            margin-top: -115px;
+            padding-top: 0px;
+        }
+        .leaflet__section form>input::placeholder{
+            font-size: 15px;
+        }
+     
+        .mylist{
+            position: relative;
+        }
+        .mylist>i{
+            position: absolute;
+            right:10%;
+            top: 3%;
+            font-size: larger;
+            color: white;
+        }
+        
+        .list__collections >h3{
+            font-size: 17px;
+        }
+        .content  > h3{
+            font-size: 17px;
+        }
+
+        .leaflet__content > h1{
+            font-size: 22px ;
+        }
+     
+       }
+        */
