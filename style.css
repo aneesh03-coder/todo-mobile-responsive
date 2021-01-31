@@ -718,7 +718,7 @@ font-family: 'Ubuntu', sans-serif; */
        }     */
 
        @media screen and (max-width: 414px), 
-       screen and (max-height: 736px) {
+       screen and (max-height: 636px) {
           
            body{
             position: relative;
@@ -775,8 +775,8 @@ font-family: 'Ubuntu', sans-serif; */
             left: 10%;
         }
         .leaflet{
-            width: 80%;
-            height: 90%;
+            width: 370px;
+            height: 70%;
         }
         .todo__heading{
             position: absolute;
