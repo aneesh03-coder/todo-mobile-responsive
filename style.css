@@ -492,7 +492,7 @@ font-family: 'Ubuntu', sans-serif; */
 
  
 
-       @media all and (max-width: 614px) and (max-height: 714px){        
+       @media all and (max-width: 414px) and (max-height: 723px){        
           
            body{
             position: relative;
